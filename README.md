@@ -2,7 +2,7 @@
 
 
 
-## Lab 1 Prism Element
+## Lab 1 Prism Element erkunden
 
 https://stephopper.com/published/guide_1777385507449
 
@@ -21,6 +21,19 @@ https://stephopper.com/published/guide_1777391209626
 
 https://stephopper.com/published/guide_1777394853027
 
+## Lab 5 erkunde vCenter
 
-## Lab 5 Migration von VMs
+https://stephopper.com/published/guide_1777403710298
+
+
+
+## Lab 6 VM Migration mit Nutanix Move - Schritt 1: Initiales Setup
+
+https://stephopper.com/published/guide_1777397649752
+
+
+
+## Lab 7 VM Migration mit Nutanix Move - Schritt 2: der Cutover
+
+https://stephopper.com/published/guide_1777401425346
 
