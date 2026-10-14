@@ -4,8 +4,6 @@
 
 > In diesem LAB gehen wir die Bereitstellung einer Redhat Enterprise Linux 10 VM auf Basis eines Templates und mithilfe von cloud-init durch.
 
-Quelle: <https://stephopper.com/published/guide_1777394853027>
-
 [← Zurück zur Übersicht](../README.md)
 
 ### Schritt 1

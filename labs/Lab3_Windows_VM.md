@@ -4,8 +4,6 @@
 
 > This guide will walk you through how to access and navigate the dashboard by visiting the specified URL multiple times to ensure proper connection and review of the dashboard features.
 
-Quelle: <https://stephopper.com/published/guide_1777391209626>
-
 [← Zurück zur Übersicht](../README.md)
 
 ### Schritt 1

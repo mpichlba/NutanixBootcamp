@@ -4,8 +4,6 @@
 
 > Hier gehen wir einige wesentliche Elemente aus dem Prism Central durch.
 
-Quelle: <https://stephopper.com/published/guide_1777396177614>
-
 [← Zurück zur Übersicht](../README.md)
 
 ### Schritt 1

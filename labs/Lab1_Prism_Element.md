@@ -4,8 +4,6 @@
 
 > This guide will teach you how to access the login page, navigate to the dashboard, and view the network diagram by visiting specific URLs and clicking on the 'Diagram' option for comprehensive network visualization.
 
-Quelle: <https://stephopper.com/published/guide_1777385507449>
-
 [← Zurück zur Übersicht](../README.md)
 
 ### Schritt 1

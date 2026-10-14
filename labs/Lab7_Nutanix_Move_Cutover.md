@@ -4,8 +4,6 @@
 
 > This guide will walk you through how to access and manage your migration process by clicking 'In Progress', visiting the specified URL, and confirming your actions by clicking 'Okay'.
 
-Quelle: <https://stephopper.com/published/guide_1777401425346>
-
 [← Zurück zur Übersicht](../README.md)
 
 ### Schritt 1

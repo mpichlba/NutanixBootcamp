@@ -4,8 +4,6 @@
 
 > Schaue dich in der bestehenden vCenter Umgebung um, finde deine VMs. Notiere die IP Adressen deiner VMs.
 
-Quelle: <https://stephopper.com/published/guide_1777403710298>
-
 [← Zurück zur Übersicht](../README.md)
 
 ### Schritt 1

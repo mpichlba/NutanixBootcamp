@@ -4,8 +4,6 @@
 
 > In diesem Schritt setzen wir einen Migration Plan auf
 
-Quelle: <https://stephopper.com/published/guide_1777397649752>
-
 [← Zurück zur Übersicht](../README.md)
 
 ### Schritt 1
