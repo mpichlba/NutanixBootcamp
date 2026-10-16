@@ -1,0 +1,55 @@
+#cloud-config
+# Cloud-init für Nutanix AHV 
+# Platzhalter in XX ersetzen mit zweistelliger Teilnehmernummer
+
+# --- Hostname ---
+preserve_hostname: false
+hostname: rhelvmXX                 # z.B. web01
+prefer_fqdn_over_hostname: false
+manage_etc_hosts: true
+
+# --- Benutzer ---
+users:
+  - default                          # Standarduser des Images behalten (entfernen, falls nicht gewünscht)
+  - name: admin
+    gecos: Administrator
+    groups: [sudo, wheel]            # Ubuntu/Debian: sudo | RHEL/Rocky/Alma: wheel (nicht vorhandene Gruppe entfernen)
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL     # sudo ohne Passwortabfrage
+    lock_passwd: false
+    plain_text_passwd: xxx!    # Klartext – nur für Demo/Lab verwenden
+    # Optional zusätzlich SSH-Key:
+    # ssh_authorized_keys:
+    #   - <ssh-ed25519 AAAA... user@host>
+
+# Passwort nicht beim ersten Login ablaufen lassen
+chpasswd:
+  expire: false
+
+# --- SSH ---
+ssh_pwauth: true                     # SSH-Login mit Passwort erlauben
+disable_root: true                   # Root-Login per SSH sperren
+
+package_update: true
+packages:
+  - openssh-server
+
+# Passwort-Login erzwingen, auch falls das Image ihn per Drop-in deaktiviert
+write_files:
+  - path: /etc/ssh/sshd_config.d/00-demo-pwauth.conf
+    permissions: '0644'
+    content: |
+      PasswordAuthentication yes
+      KbdInteractiveAuthentication yes
+
+runcmd:
+  - sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config
+  # Dienstname: Ubuntu/Debian = ssh, RHEL/Rocky/Alma = sshd
+  - systemctl enable --now ssh || systemctl enable --now sshd
+  - systemctl restart ssh || systemctl restart sshd
+  # Firewall öffnen, falls aktiv
+  - command -v ufw >/dev/null && ufw allow OpenSSH || true
+  - command -v firewall-cmd >/dev/null && firewall-cmd --permanent --add-service=ssh && firewall-cmd --reload || true
+
+# Optional: Zeitzone
+timezone: Europe/Vienna
