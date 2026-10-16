@@ -5,7 +5,7 @@
 **Hands-on Labs rund um Nutanix AHV, Prism und die Migration von VMware mit Nutanix Move**
 
 ![Labs](https://img.shields.io/badge/Labs-7-0869B2?style=for-the-badge)
-![Schritte](https://img.shields.io/badge/Schritte-58-024DA1?style=for-the-badge)
+![Schritte](https://img.shields.io/badge/Schritte-59-024DA1?style=for-the-badge)
 ![Sprache](https://img.shields.io/badge/Sprache-Deutsch-6C757D?style=for-the-badge)
 ![Plattform](https://img.shields.io/badge/Plattform-Nutanix%20AHV-7855FA?style=for-the-badge)
 
@@ -37,7 +37,7 @@ flowchart LR
 |:-:|---|---|:-:|
 | <img src="labs/images/Lab1_Prism_Element/step_02.png" width="180"> | **[Lab 1 – Prism Element erkunden](labs/Lab1_Prism_Element.md)** | Login am Cluster, Hardware-, Storage- und Netzwerk-Diagramme, Health-Übersicht | 7 |
 | <img src="labs/images/Lab2_Prism_Central/step_02.png" width="180"> | **[Lab 2 – Prism Central](labs/Lab2_Prism_Central.md)** | Dashboard, VMs, Images, Storage Container, Netzwerke, Security, Protection Policies, IAM | 14 |
-| <img src="labs/images/Lab3_Windows_VM/step_03.png" width="180"> | **[Lab 3 – Windows VM Bereitstellung](labs/Lab3_Windows_VM.md)** | Deployment aus einem Template mit Sysprep-Gastanpassung | 5 |
+| <img src="labs/images/Lab3_Windows_VM/step_04.png" width="180"> | **[Lab 3 – Windows VM Bereitstellung](labs/Lab3_Windows_VM.md)** | Deployment aus einem Template mit Sysprep-Gastanpassung | 6 |
 | <img src="labs/images/Lab4_Linux_VM/step_05.png" width="180"> | **[Lab 4 – Linux VM Bereitstellung](labs/Lab4_Linux_VM.md)** | RHEL 10 aus einem Template mit cloud-init, optional SSH-Login | 8 |
 | <img src="labs/images/Lab5_vCenter/step_01.png" width="180"> | **[Lab 5 – vCenter erkunden](labs/Lab5_vCenter.md)** | Bestehende vSphere-Umgebung ansehen, eigene VMs und IP-Adressen notieren | 1 |
 | <img src="labs/images/Lab6_Nutanix_Move_Setup/step_12.png" width="180"> | **[Lab 6 – Nutanix Move: Initiales Setup](labs/Lab6_Nutanix_Move_Setup.md)** | Migration Plan anlegen: Source/Target, VM-Auswahl, Netzwerk-Mapping, VM-Vorbereitung | 19 |

@@ -20,16 +20,22 @@ Wähle "Windows_Template" und klicke "Deploy VMs"
 
 ### Schritt 3
 
-Klicke auf "Advanced Deploy" und wähle Guest OS Customization "Sysprep" und Guest Profile Name "Windows_Bootcamp_Profile"; wähle "Next"
+Klicke auf "Advanced Deploy". Vergib unter "Configuration" einen Namen für die VM (z.B. "WindowsServer" + deine zweistellige Bootcamp-Nummer) und belasse die übrigen Einstellungen. Klicke auf "Next"
 
-![Schritt 3: Klicke auf "Advanced Deploy" und wähle Guest OS Customization "Sysprep" und Guest Profile Name "Windows_Bootcamp_Profile"; wähle "Next"](images/Lab3_Windows_VM/step_03.png)
+![Schritt 3: Klicke auf "Advanced Deploy". Vergib unter "Configuration" einen Namen für die VM (z.B. "WindowsServer" + deine zweistellige Bootcamp-Nummer) und belasse die übrigen Einstellungen. Klicke auf "Next"](images/Lab3_Windows_VM/step_03.png)
 
 ### Schritt 4
 
-Klicke anschließend auf "Deploy"
+Belasse unter "Resources" die Standardeinstellungen. Wähle unter "Management" bei Guest Customization den Guest OS Type "Sysprep" und Guest Profile Name "Windows_Bootcamp_Profile"; wähle "Next"
 
-![Schritt 4: Klicke anschließend auf "Deploy"](images/Lab3_Windows_VM/step_04.png)
+![Schritt 4: Belasse unter "Resources" die Standardeinstellungen. Wähle unter "Management" bei Guest Customization den Guest OS Type "Sysprep" und Guest Profile Name "Windows_Bootcamp_Profile"; wähle "Next"](images/Lab3_Windows_VM/step_04.png)
 
 ### Schritt 5
+
+Klicke anschließend auf "Deploy"
+
+![Schritt 5: Klicke anschließend auf "Deploy"](images/Lab3_Windows_VM/step_05.png)
+
+### Schritt 6
 
 Wähle die VM aus und starte diese mit Rechtsklick "Power Operations" --> "Power On"
