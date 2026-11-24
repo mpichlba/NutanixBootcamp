@@ -84,10 +84,22 @@ Unter "Administration" -> "IAM" kann der Zugriff zu den einzelnen Ressourcen im 
 
 ![Schritt 13: Unter "Administration" -> "IAM" kann der Zugriff zu den einzelnen Ressourcen im Nutanix Cluster gesteuert werden.](images/Lab2_Prism_Central/step_13.png)
 
+### Schritt 14
+
+Im "Admin Center" findest du unter "LCM" (Life Cycle Manager) die zentrale Verwaltung von Software- und Firmware-Updates. Der Reiter "Prism Element Clusters" zeigt alle angebundenen Cluster mit Verbindungsstatus, Upgrade Source und Ergebnis des letzten Inventory. Wähle einen Cluster aus – rechts siehst du unter "Software" die installierten Versionen (z.B. AOS, AHV, NCC, Foundation) und unter "Firmware" den Firmware-Stand.
+
+![Schritt 14: Im "Admin Center" findest du unter "LCM" (Life Cycle Manager) die zentrale Verwaltung von Software- und Firmware-Updates. Der Reiter "Prism Element Clusters" zeigt alle angebundenen Cluster mit Verbindungsstatus, Upgrade Source und Ergebnis des letzten Inventory. Wähle einen Cluster aus – rechts siehst du unter "Software" die installierten Versionen (z.B. AOS, AHV, NCC, Foundation) und unter "Firmware" den Firmware-Stand.](images/Lab2_Prism_Central/step_14.png)
+
+### Schritt 15
+
+Im Reiter "Prism Central" zeigt LCM die Software-Komponenten von Prism Central selbst (z.B. PC, PC Core Services, NCC, Self Service, Files Manager). Mit "Perform Inventory" prüft LCM, welche Updates verfügbar sind.
+
+![Schritt 15: Im Reiter "Prism Central" zeigt LCM die Software-Komponenten von Prism Central selbst (z.B. PC, PC Core Services, NCC, Self Service, Files Manager). Mit "Perform Inventory" prüft LCM, welche Updates verfügbar sind.](images/Lab2_Prism_Central/step_15.png)
+
 ---
 
 ## Optionale Schritte
 
-### Schritt 14
+### Schritt 16
 
 Erkunde weitere Elemente im Prism Central - Bei Unklarheiten wende dich an den Vortragenden
